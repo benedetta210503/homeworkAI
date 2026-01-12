@@ -40,6 +40,24 @@ To run this project, you need:
 - **z3-solver** (for CSP solving)
 
 Install all dependencies using:
+## How to Run the Project
+
+The project is designed to be executed from the command line and allows the user to **interactively choose**:
+
+- The solving approach (**A\*** or **CSP**)
+- The board size (`N`)
+- Optionally, a **list of board sizes** to run multiple experiments
+- (For A\*) the **heuristic function** to be used
+
+---
+
+### Running the Main Script
+
+The main entry point of the project is the `main.py` script.
+
+```bash
+python main.py
+
 
 ```bash
 pip install matplotlib z3-solver
