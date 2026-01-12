@@ -1,3 +1,13 @@
+
+def count_conflicts(state, n):
+    conflicts = 0
+    for i in range(len(state)):
+        for j in range(i+1, len(state)):
+            if state[i] == state[j] or abs(state[i] - state[j]) == abs(i - j):
+                conflicts += 1
+    return conflicts
+
+
 class N_Queens:
     def __init__(self, n):
         self.n = n
