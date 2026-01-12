@@ -40,6 +40,10 @@ To run this project, you need:
 - **z3-solver** (for CSP solving)
 
 Install all dependencies using:
+
+```bash
+pip install matplotlib z3-solver
+
 ## How to Run the Project
 
 The project is designed to be executed from the command line and allows the user to **interactively choose**:
@@ -57,10 +61,6 @@ The main entry point of the project is the `main.py` script.
 
 ```bash
 python main.py
-
-
-```bash
-pip install matplotlib z3-solver
 
 
 
