@@ -44,8 +44,7 @@ In order to run the project it's sufficient to do:
                             python main.py
 
 The user must now follow the instructions provided in order to choose how to carry out the experiment (or experiments if they wish to perform more than one to view the previously described graphs).
----
-Here the user has to follow the istructions in order to choose the way in
+
 ## Dependencies
 
 To run this project, you need:
