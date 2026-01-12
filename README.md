@@ -31,6 +31,17 @@ The project includes a visualization of the chessboard using **matplotlib**.
 ## Results
 At the end of a sequence of experiments in which the parameter N, that is, the size of the chessboard, is varied, three graphs are shown for the A* algorithm indicating the variation in the number of nodes generated, the variation in the number of nodes explored, and the running time. As for the Z3 solver, an indicative table is printed at the end showing the main metrics and the running time.
 
+## How to Run the Project
+
+The project is designed to be executed from the command line and allows the user to **interactively choose**:
+
+- The solving approach (**A\*** or **CSP**)
+- The board size (`N`)
+- Optionally, a **list of board sizes** to run multiple experiments
+- (For A\*) the **heuristic function** to be used
+
+---
+
 ## Dependencies
 
 To run this project, you need:
@@ -44,23 +55,8 @@ Install all dependencies using:
 ```bash
 pip install matplotlib z3-solver
 
-## How to Run the Project
 
-The project is designed to be executed from the command line and allows the user to **interactively choose**:
 
-- The solving approach (**A\*** or **CSP**)
-- The board size (`N`)
-- Optionally, a **list of board sizes** to run multiple experiments
-- (For A\*) the **heuristic function** to be used
-
----
-
-### Running the Main Script
-
-The main entry point of the project is the `main.py` script.
-
-```bash
-python main.py
 
 
 
