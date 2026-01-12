@@ -39,9 +39,13 @@ The project is designed to be executed from the command line and allows the user
 - The board size (`N`)
 - Optionally, a **list of board sizes** to run multiple experiments
 - (For A\*) the **heuristic function** to be used
+In order to run the project it's sufficient to do:
 
+```bash
+python main.py
+The user must now follow the instructions provided in order to choose how to carry out the experiment (or experiments if they wish to perform more than one to view the previously described graphs).
 ---
-
+Here the user has to follow the istructions in order to choose the way in
 ## Dependencies
 
 To run this project, you need:
